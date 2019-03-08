@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    var game:Concetration = Concetration()
+    
+    
     
     @IBAction func ButtonFlowwer(_ sender: Any) {
         
