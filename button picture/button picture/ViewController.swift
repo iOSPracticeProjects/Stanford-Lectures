@@ -11,16 +11,45 @@ import UIKit
 class ViewController: UIViewController {
     
     
-    @IBAction func ButtonFlowwer(_ sender: Any) {
+    
+    var flipCount = 0{
+        didSet{
+            FlipCountLabel.text = "Flips: \(flipCount)"
+
+        }
+    }
+ 
+    @IBOutlet weak var FlipCountLabel: UILabel!
+    
+    @IBOutlet var cardButtons: [UIButton]!
+    
+    var emojiChoices = ["👻","🎃","👻","🎃"]
+    
+    
+    
+    
+    @IBAction func BunGhost(_ sender: UIButton) {
         
-        print("button pressed in simulator")
-        flipCard(withEmoji: "🌼", on: sender as! UIButton)
+        flipCount += 1
+        if let cardNumber = cardButtons.firstIndex(of: sender)
+        {
+            flipCard(withEmoji: emojiChoices[cardNumber], on: sender)
+            print("cardNumber = \(String(describing: cardNumber))")
+
+        } else {
+            
+            print("Choose card was not in CarButton")
+        }
+        
+        
+       // flipCard(withEmoji: "👻", on: sender as! UIButton)
     }
     
- 
+    
     func flipCard(withEmoji emoji:String, on button: UIButton)  {
-        print("the filpCard function is called")
-        
+        print("flipCard(withEmoji: \(emoji)")
+        flipCount += 1
+
         if button.currentTitle == emoji {
             button.setTitle("", for: UIControl.State.normal)
             button.backgroundColor = UIColor.orange
@@ -28,17 +57,17 @@ class ViewController: UIViewController {
         else{
             button.setTitle(emoji, for: UIControl.State.normal)
             button.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
-
+            
             
         }
     }
     
-   // this second action
+    // this second action
     
-    @IBAction func ButtonStar(_ sender: Any) {
-        
-        flipCard(withEmoji: "★", on: sender as! UIButton)
-    }
+//    @IBAction func BunPumpkin(_ sender: Any) {
+//        
+//        flipCard(withEmoji: "🎃", on: sender as! UIButton)
+//    }
     
     
     

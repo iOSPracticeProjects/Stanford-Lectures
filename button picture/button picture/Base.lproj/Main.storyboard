@@ -19,57 +19,71 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PAA-ax-cfg">
-                                <rect key="frame" x="22" y="31" width="121" height="157"/>
+                                <rect key="frame" x="22" y="31" width="76" height="76"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.40000000000000002" green="0.59999999999999998" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="64"/>
-                                <state key="normal" title="🌼">
+                                <state key="normal" title="👻">
                                     <color key="titleShadowColor" red="0.58823529409999997" green="0.20000000000000001" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="ButtonFlowwer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TXc-5C-gOb"/>
+                                    <action selector="BunGhost:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JA2-Fd-4ve"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7IK-lU-LI5">
-                                <rect key="frame" x="196" y="31" width="121" height="157"/>
+                                <rect key="frame" x="113" y="31" width="70" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.40000000000000002" green="0.59999999999999998" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="64"/>
-                                <state key="normal" title="★">
+                                <state key="normal" title="🎃">
                                     <color key="titleShadowColor" red="0.58823529409999997" green="0.20000000000000001" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="ButtonStar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wfM-j6-6ea"/>
+                                    <action selector="BunGhost:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t79-Jl-8ad"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EnP-GK-omc">
-                                <rect key="frame" x="22" y="216" width="121" height="157"/>
+                                <rect key="frame" x="22" y="115" width="76" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.40000000000000002" green="0.59999999999999998" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="64"/>
-                                <state key="normal" title="🌼">
+                                <state key="normal" title="👻">
                                     <color key="titleShadowColor" red="0.58823529409999997" green="0.20000000000000001" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="ButtonFlowwer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jrA-3S-eGv"/>
+                                    <action selector="BunGhost:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W7h-QL-szE"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W1L-si-3RC">
-                                <rect key="frame" x="189" y="216" width="121" height="157"/>
+                                <rect key="frame" x="113" y="112" width="70" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.40000000000000002" green="0.59999999999999998" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="64"/>
-                                <state key="normal" title="🌼">
+                                <state key="normal" title="🎃">
                                     <color key="titleShadowColor" red="0.58823529409999997" green="0.20000000000000001" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="ButtonFlowwer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="abo-hK-LW1"/>
+                                    <action selector="BunGhost:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vMA-Y9-elT"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Flips: 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hVp-7l-zaH">
+                                <rect key="frame" x="130" y="552" width="115" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="FlipCountLabel" destination="hVp-7l-zaH" id="PTP-bx-MuJ"/>
+                        <outletCollection property="cardButtons" destination="PAA-ax-cfg" collectionClass="NSMutableArray" id="x0t-Rm-Wq3"/>
+                        <outletCollection property="cardButtons" destination="7IK-lU-LI5" collectionClass="NSMutableArray" id="yZb-1u-NMG"/>
+                        <outletCollection property="cardButtons" destination="EnP-GK-omc" collectionClass="NSMutableArray" id="eDn-aG-ydE"/>
+                        <outletCollection property="cardButtons" destination="W1L-si-3RC" collectionClass="NSMutableArray" id="8lt-jx-e8N"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
